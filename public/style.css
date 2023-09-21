@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.text-center{
+	text-align: center;
+}
+.text-center h2{
+	padding-top: 2rem;
+}
+#hero{
+		color:  #dde6ed;
+		//background-image: url("../images/hero.jpg");
+		background-color: #27374d;
+		height: 600px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		}
+.hero-container{
+	padding: 1rem;
+}
+h1{
+	font-size: 3.5rem;
+	font-family: 'PT Serif', serif;
+}
+h2 {
+	font-size: 2.5rem;
+	font-family: 'PT Serif', serif;
+	margin-top: 0;
+}
+h3{
+	font-size: 1.5rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;
+}
+p, li {
+	font-size: 1rem;
+	font-family: 'Inter', sans-serif;
+}
+ 
+#edu-skill{
+	display: flex;
+	background-color: #dde6ed;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	height: 450px;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding-top: 2rem;
+	color: #27374d;
+}
+#edu-skill > div {
+	width: 350px;
+	padding: 0 20px;
+}
+#my-work img {
+	
+	border: 5px solid #27374d;
+	margin: 1.5rem;
+	box-sizing: border-box;
+	max-width: 100%;
+	
+}
+#my-work {
+	background-color: #526d82;
+	padding: 5%;
+	color:  #dde6ed;
+}
+.container {
+	//display: flex;
+	//flex-wrap: wrap;
+	//justify-content: center;
+}
+img{
+	//max-width: 500px;
+}
+.items{
+	display: flex;
+}
+
+#my-work h2 {
+	text-align: center;
+	margin-top: 0;
+}
+#about-me {
+	background-color:#9db2bf;
+	color: #27374d;
+	padding: 3rem;
+}
+.profile-image {
+	height: 150px;
+	border-radius: 50%;
+	width: 150px;
+	display: block;
+	margin: 4rem auto;
+	border: 5px solid #dde6ed;
+
+}
+#about-me p {
+	font-size: 1.25rem;
+	letter-spacing: 0.2rem;
+}
+#about-me li {
+	margin: .75rem;
+	list-style-type: none;
+}
+
+#contact-me {
+	background-color:#dde6ed;
+	padding: 2rem;
+	color: #27374d;
+}
+#contact-me p {
+	margin: 0 0 2em 0;
+	font-size: 2rem;
+	text-align: center;
+	
+	
+}
+button {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.5rem;
+	padding: 1rem;
+	text-transform: uppercase;
+	background-color: #27374d;
+	color: #dde6ed;
+	border: 2px solid black;
+	display: block;
+	margin: 0 auto;
+}
+button:hover{
+	transform: scale(.85);
+	transition: .5s;
+}
+footer {
+	text-align: center;
+	color: #dde6ed;
+	background-color: #27374d;
+	padding: 2rem;
+}
+footer p{
+	margin: 0;
+	font-size: 1.25rem;
+}
+@media only screen and (min-width: 800px){
+	
+	#edu-skill {
+		padding-top: 7rem;
+	}
+
+}
+@media only screen and (max-width: 800px){
+	.items {
+		flex-direction: column;
+	}
+	
+}
+@media only screen and (max-width: 550px){
+
+
+}
